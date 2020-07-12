@@ -1,0 +1,13 @@
+.App form {
+  width: 300px;
+  margin: 80px auto;
+}
+
+.form-control-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.form-control-group label {
+  margin-bottom: 5px;
+}
