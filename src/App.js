@@ -68,7 +68,7 @@ function App() {
             </div>
             <div className="form-control-group">
               <label>Estado</label>
-              <Field name="uf">
+              <Field component="select" name="uf">
                 <option value={null}>Selecione o Estado</option>
                 <option value="SP">São Paulo</option>
                 <option value="SC">Santa Catarina</option>
